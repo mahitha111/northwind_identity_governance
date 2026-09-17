@@ -1,0 +1,3829 @@
+{
+  "accounts": [
+    "111111111111-prod",
+    "222222222222-staging",
+    "333333333333-shared-services"
+  ],
+  "users": [
+    {
+      "username": "jessica.hall",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/jessica.hall",
+      "groups": [
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 61,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02200"
+    },
+    {
+      "username": "jessica.nunez",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/jessica.nunez",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 74,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00091"
+    },
+    {
+      "username": "mitchell.hoffman",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/mitchell.hoffman",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 174,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00819"
+    },
+    {
+      "username": "jeremy.allen",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/jeremy.allen",
+      "groups": [
+        "Admins",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 388,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02390"
+    },
+    {
+      "username": "james.terry",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/james.terry",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 440,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01514"
+    },
+    {
+      "username": "lindsey.martinez",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/lindsey.martinez",
+      "groups": [
+        "Developers",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 22,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01547"
+    },
+    {
+      "username": "stacey.tucker",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/stacey.tucker",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 442,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00657"
+    },
+    {
+      "username": "laura.valencia",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/laura.valencia",
+      "groups": [
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 165,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00155"
+    },
+    {
+      "username": "debbie.fisher",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/debbie.fisher",
+      "groups": [
+        "Admins",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 164,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00973"
+    },
+    {
+      "username": "renee.porter",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/renee.porter",
+      "groups": [
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 116,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02084"
+    },
+    {
+      "username": "peter.gamble",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/peter.gamble",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 323,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01483"
+    },
+    {
+      "username": "thomas.carlson",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/thomas.carlson",
+      "groups": [
+        "Admins",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 180,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02228"
+    },
+    {
+      "username": "morgan.harris",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/morgan.harris",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 204,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02261"
+    },
+    {
+      "username": "charlotte.steele",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/charlotte.steele",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 77,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01567"
+    },
+    {
+      "username": "christopher.george",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/christopher.george",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 359,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01117"
+    },
+    {
+      "username": "amanda.glover",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/amanda.glover",
+      "groups": [
+        "ReadOnly",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 497,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01632"
+    },
+    {
+      "username": "michele.jones",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/michele.jones",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 278,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00083"
+    },
+    {
+      "username": "darrell.bell",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/darrell.bell",
+      "groups": [
+        "DataTeam",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 230,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01807"
+    },
+    {
+      "username": "amber.ballard",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/amber.ballard",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 68,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02173"
+    },
+    {
+      "username": "kimberly.jones",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/kimberly.jones",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 259,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02207"
+    },
+    {
+      "username": "christopher.williams",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/christopher.williams",
+      "groups": [
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 489,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00045"
+    },
+    {
+      "username": "kevin.hill",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/kevin.hill",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 226,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00620"
+    },
+    {
+      "username": "thomas.miller",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/thomas.miller",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 255,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01540"
+    },
+    {
+      "username": "jim.rios",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/jim.rios",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 270,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01281"
+    },
+    {
+      "username": "erika.mitchell",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/erika.mitchell",
+      "groups": [
+        "Developers",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 67,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00642"
+    },
+    {
+      "username": "kimberly.bowman",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/kimberly.bowman",
+      "groups": [
+        "DataTeam",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 126,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00789"
+    },
+    {
+      "username": "jean.miles",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/jean.miles",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 136,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01338"
+    },
+    {
+      "username": "travis.davis",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/travis.davis",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 382,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00369"
+    },
+    {
+      "username": "jenny.lee",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/jenny.lee",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 356,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01019"
+    },
+    {
+      "username": "terri.taylor",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/terri.taylor",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 371,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01135"
+    },
+    {
+      "username": "stephen.harrington",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/stephen.harrington",
+      "groups": [
+        "ReadOnly",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 223,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01778"
+    },
+    {
+      "username": "gregory.medina",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/gregory.medina",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 170,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00979"
+    },
+    {
+      "username": "kevin.ferguson",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/kevin.ferguson",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 452,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00799"
+    },
+    {
+      "username": "brian.martinez",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/brian.martinez",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 344,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00792"
+    },
+    {
+      "username": "sarah.johnson",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/sarah.johnson",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 512,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00970"
+    },
+    {
+      "username": "spencer.ward",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/spencer.ward",
+      "groups": [
+        "Developers",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 382,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01348"
+    },
+    {
+      "username": "heather.cooper",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/heather.cooper",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 136,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01669"
+    },
+    {
+      "username": "jacqueline.farrell",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/jacqueline.farrell",
+      "groups": [
+        "DataTeam",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 84,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00538"
+    },
+    {
+      "username": "anthony.spencer",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/anthony.spencer",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 124,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00779"
+    },
+    {
+      "username": "robert.soto",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/robert.soto",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 109,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00211"
+    },
+    {
+      "username": "molly.gomez",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/molly.gomez",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 149,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00746"
+    },
+    {
+      "username": "samuel.roberson",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/samuel.roberson",
+      "groups": [
+        "DataTeam",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 165,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01098"
+    },
+    {
+      "username": "stephen.rivera",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/stephen.rivera",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 317,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01878"
+    },
+    {
+      "username": "christopher.anderson",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/christopher.anderson",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 85,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01203"
+    },
+    {
+      "username": "elizabeth.duran",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/elizabeth.duran",
+      "groups": [
+        "ReadOnly",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 115,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01054"
+    },
+    {
+      "username": "james.johnson",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/james.johnson",
+      "groups": [
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 70,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00208"
+    },
+    {
+      "username": "mitchell.peters",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/mitchell.peters",
+      "groups": [
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 295,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02026"
+    },
+    {
+      "username": "april.mclaughlin",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/april.mclaughlin",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 217,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02055"
+    },
+    {
+      "username": "kevin.kelley",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/kevin.kelley",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 265,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00197"
+    },
+    {
+      "username": "shane.gates",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/shane.gates",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 493,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01755"
+    },
+    {
+      "username": "cassandra.shaw",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/cassandra.shaw",
+      "groups": [
+        "Admins",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 456,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01968"
+    },
+    {
+      "username": "leah.shields",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/leah.shields",
+      "groups": [
+        "Admins",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 442,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00165"
+    },
+    {
+      "username": "patrick.joyce",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/patrick.joyce",
+      "groups": [
+        "Admins",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 460,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02041"
+    },
+    {
+      "username": "jeanette.colon",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/jeanette.colon",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 292,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02273"
+    },
+    {
+      "username": "charles.smith",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/charles.smith",
+      "groups": [
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 283,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01934"
+    },
+    {
+      "username": "benjamin.armstrong",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/benjamin.armstrong",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 646,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01980"
+    },
+    {
+      "username": "joe.vang",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/joe.vang",
+      "groups": [
+        "ReadOnly",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 345,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00689"
+    },
+    {
+      "username": "richard.oliver",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/richard.oliver",
+      "groups": [
+        "ReadOnly",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 253,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00159"
+    },
+    {
+      "username": "sydney.taylor",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/sydney.taylor",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 481,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00474"
+    },
+    {
+      "username": "joshua.davenport",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/joshua.davenport",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 206,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00393"
+    },
+    {
+      "username": "jacob.fletcher",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/jacob.fletcher",
+      "groups": [
+        "Developers",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 2,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02015"
+    },
+    {
+      "username": "chase.king",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/chase.king",
+      "groups": [
+        "ReadOnly",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 194,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01127"
+    },
+    {
+      "username": "edward.vaughn",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/edward.vaughn",
+      "groups": [
+        "Developers",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 258,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00871"
+    },
+    {
+      "username": "alexandra.hayes",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/alexandra.hayes",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 422,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00335"
+    },
+    {
+      "username": "michael.vega",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/michael.vega",
+      "groups": [
+        "Developers",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 28,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01317"
+    },
+    {
+      "username": "eric.murillo",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/eric.murillo",
+      "groups": [
+        "ReadOnly",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 332,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02287"
+    },
+    {
+      "username": "samantha.atkins",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/samantha.atkins",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 233,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00594"
+    },
+    {
+      "username": "elizabeth.miller",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/elizabeth.miller",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 426,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01533"
+    },
+    {
+      "username": "kenneth.flores",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/kenneth.flores",
+      "groups": [
+        "DataTeam",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 362,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01504"
+    },
+    {
+      "username": "ashley.hall",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/ashley.hall",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 485,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00408"
+    },
+    {
+      "username": "robert.villa",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/robert.villa",
+      "groups": [
+        "DataTeam",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 294,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00399"
+    },
+    {
+      "username": "christopher.herrera",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/christopher.herrera",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 301,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01325"
+    },
+    {
+      "username": "gail.mitchell",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/gail.mitchell",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 384,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02190"
+    },
+    {
+      "username": "christopher.montgomery",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/christopher.montgomery",
+      "groups": [
+        "Developers",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 307,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01106"
+    },
+    {
+      "username": "chloe.morris",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/chloe.morris",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 379,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02257"
+    },
+    {
+      "username": "kyle.ward",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/kyle.ward",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 306,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01112"
+    },
+    {
+      "username": "scott.gomez",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/scott.gomez",
+      "groups": [
+        "ReadOnly",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 422,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02288"
+    },
+    {
+      "username": "tina.herrera",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/tina.herrera",
+      "groups": [
+        "DataTeam",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 68,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00176"
+    },
+    {
+      "username": "jennifer.perez",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/jennifer.perez",
+      "groups": [
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 67,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01352"
+    },
+    {
+      "username": "nicholas.martin",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/nicholas.martin",
+      "groups": [
+        "ReadOnly",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 169,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00664"
+    },
+    {
+      "username": "shelly.powers",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/shelly.powers",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 9,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01007"
+    },
+    {
+      "username": "allison.luna",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/allison.luna",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 660,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00980"
+    },
+    {
+      "username": "tyler.glass",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/tyler.glass",
+      "groups": [
+        "DataTeam",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 466,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00737"
+    },
+    {
+      "username": "lynn.bentley",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/lynn.bentley",
+      "groups": [
+        "DataTeam",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 89,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00482"
+    },
+    {
+      "username": "rachel.byrd",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/rachel.byrd",
+      "groups": [
+        "Developers",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 237,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00443"
+    },
+    {
+      "username": "robert.brewer",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/robert.brewer",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 397,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01578"
+    },
+    {
+      "username": "charles.ellis",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/charles.ellis",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 105,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00127"
+    },
+    {
+      "username": "karen.stokes",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/karen.stokes",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 337,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01192"
+    },
+    {
+      "username": "kari.payne",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/kari.payne",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 268,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01833"
+    },
+    {
+      "username": "jennifer.douglas",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/jennifer.douglas",
+      "groups": [
+        "DataTeam",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 358,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00643"
+    },
+    {
+      "username": "jessica.fuentes",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/jessica.fuentes",
+      "groups": [
+        "DataTeam",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 240,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00608"
+    },
+    {
+      "username": "natasha.decker",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/natasha.decker",
+      "groups": [
+        "DataTeam",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 386,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00065"
+    },
+    {
+      "username": "michelle.martinez",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/michelle.martinez",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 138,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01248"
+    },
+    {
+      "username": "glen.barr",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/glen.barr",
+      "groups": [
+        "ReadOnly",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 498,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00878"
+    },
+    {
+      "username": "crystal.hamilton",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/crystal.hamilton",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 203,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01883"
+    },
+    {
+      "username": "jeremy.johnson",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/jeremy.johnson",
+      "groups": [
+        "ReadOnly",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 214,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00034"
+    },
+    {
+      "username": "angela.peters",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/angela.peters",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 51,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01900"
+    },
+    {
+      "username": "howard.marsh",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/howard.marsh",
+      "groups": [
+        "Admins",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 231,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01909"
+    },
+    {
+      "username": "leonard.ali",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/leonard.ali",
+      "groups": [
+        "Admins",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 256,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01088"
+    },
+    {
+      "username": "veronica.casey",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/veronica.casey",
+      "groups": [
+        "Developers",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 385,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01437"
+    },
+    {
+      "username": "laura.henderson",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/laura.henderson",
+      "groups": [
+        "Developers",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 131,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00047"
+    },
+    {
+      "username": "mark.ellis",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/mark.ellis",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 27,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01195"
+    },
+    {
+      "username": "corey.swanson",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/corey.swanson",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 403,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01914"
+    },
+    {
+      "username": "daniel.coleman",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/daniel.coleman",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 350,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00216"
+    },
+    {
+      "username": "jose.moore",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/jose.moore",
+      "groups": [
+        "Developers",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 196,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02158"
+    },
+    {
+      "username": "megan.villegas",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/megan.villegas",
+      "groups": [
+        "Developers",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 90,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00561"
+    },
+    {
+      "username": "michael.brown",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/michael.brown",
+      "groups": [
+        "Developers",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 302,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00772"
+    },
+    {
+      "username": "scott.dalton",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/scott.dalton",
+      "groups": [
+        "DataTeam",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 411,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00336"
+    },
+    {
+      "username": "cynthia.harris",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/cynthia.harris",
+      "groups": [
+        "Developers",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 263,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01801"
+    },
+    {
+      "username": "andrew.ryan",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/andrew.ryan",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 33,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00260"
+    },
+    {
+      "username": "lisa.wilson",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/lisa.wilson",
+      "groups": [
+        "Admins",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 100,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01180"
+    },
+    {
+      "username": "elizabeth.williams",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/elizabeth.williams",
+      "groups": [
+        "Developers",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 470,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02362"
+    },
+    {
+      "username": "alyssa.coleman",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/alyssa.coleman",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 24,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00308"
+    },
+    {
+      "username": "alexandra.logan",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/alexandra.logan",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 16,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01340"
+    },
+    {
+      "username": "emily.stephens",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/emily.stephens",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 138,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00983"
+    },
+    {
+      "username": "thomas.williams",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/thomas.williams",
+      "groups": [
+        "DataTeam",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 327,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01084"
+    },
+    {
+      "username": "james.warner",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/james.warner",
+      "groups": [
+        "Admins",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 450,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01700"
+    },
+    {
+      "username": "mario.padilla",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/mario.padilla",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 285,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01958"
+    },
+    {
+      "username": "jackson.mcclure",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/jackson.mcclure",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 200,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01528"
+    },
+    {
+      "username": "rhonda.holland",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/rhonda.holland",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 163,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01605"
+    },
+    {
+      "username": "laura.kelly",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/laura.kelly",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 386,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01451"
+    },
+    {
+      "username": "david.roberson",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/david.roberson",
+      "groups": [
+        "DataTeam",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 499,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02162"
+    },
+    {
+      "username": "cynthia.zavala",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/cynthia.zavala",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 328,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00714"
+    },
+    {
+      "username": "jessica.flores",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/jessica.flores",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 300,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00998"
+    },
+    {
+      "username": "alyssa.smith",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/alyssa.smith",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 337,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01294"
+    },
+    {
+      "username": "jonathan.rodriguez",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/jonathan.rodriguez",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 139,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01495"
+    },
+    {
+      "username": "jeffrey.lawrence",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/jeffrey.lawrence",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 497,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00009"
+    },
+    {
+      "username": "michael.smith",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/michael.smith",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 267,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02249"
+    },
+    {
+      "username": "karen.finley",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/karen.finley",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 98,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00936"
+    },
+    {
+      "username": "bryan.james",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/bryan.james",
+      "groups": [
+        "DataTeam",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 50,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00048"
+    },
+    {
+      "username": "loretta.austin",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/loretta.austin",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 147,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00562"
+    },
+    {
+      "username": "ashley.larsen",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/ashley.larsen",
+      "groups": [
+        "Developers",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 188,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01518"
+    },
+    {
+      "username": "krystal.perez",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/krystal.perez",
+      "groups": [
+        "ReadOnly",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 461,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00334"
+    },
+    {
+      "username": "david.torres",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/david.torres",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 2,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01204"
+    },
+    {
+      "username": "joseph.davidson",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/joseph.davidson",
+      "groups": [
+        "Admins",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 403,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00053"
+    },
+    {
+      "username": "adrienne.ellis",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/adrienne.ellis",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 293,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00527"
+    },
+    {
+      "username": "christopher.fletcher",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/christopher.fletcher",
+      "groups": [
+        "DataTeam",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 87,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01491"
+    },
+    {
+      "username": "sandra.arroyo",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/sandra.arroyo",
+      "groups": [
+        "DataTeam",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 319,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02179"
+    },
+    {
+      "username": "jodi.hancock",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/jodi.hancock",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 150,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01821"
+    },
+    {
+      "username": "megan.parsons",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/megan.parsons",
+      "groups": [
+        "DataTeam",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 99,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00033"
+    },
+    {
+      "username": "sheila.fischer",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/sheila.fischer",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 432,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00846"
+    },
+    {
+      "username": "jose.marshall",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/jose.marshall",
+      "groups": [
+        "ReadOnly",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 48,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01530"
+    },
+    {
+      "username": "martin.young",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/martin.young",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 399,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01569"
+    },
+    {
+      "username": "jessica.edwards",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/jessica.edwards",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 160,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00181"
+    },
+    {
+      "username": "brittney.rice",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/brittney.rice",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 476,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01313"
+    },
+    {
+      "username": "richard.phillips",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/richard.phillips",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 372,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00193"
+    },
+    {
+      "username": "wayne.lester",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/wayne.lester",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 320,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01542"
+    },
+    {
+      "username": "kaitlin.wright",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/kaitlin.wright",
+      "groups": [
+        "Developers",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 453,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01411"
+    },
+    {
+      "username": "nicole.sanchez",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/nicole.sanchez",
+      "groups": [
+        "DataTeam",
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 363,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00293"
+    },
+    {
+      "username": "paul.sanders",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/paul.sanders",
+      "groups": [
+        "DataTeam",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 344,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01553"
+    },
+    {
+      "username": "heidi.martinez",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/heidi.martinez",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 166,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00322"
+    },
+    {
+      "username": "emily.richards",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/emily.richards",
+      "groups": [
+        "ReadOnly",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 216,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00481"
+    },
+    {
+      "username": "angela.smith",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/angela.smith",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 269,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01759"
+    },
+    {
+      "username": "leslie.adams",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/leslie.adams",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 384,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00035"
+    },
+    {
+      "username": "david.richardson",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/david.richardson",
+      "groups": [
+        "Developers",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 299,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00733"
+    },
+    {
+      "username": "collin.jordan",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/collin.jordan",
+      "groups": [
+        "ReadOnly",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 298,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00089"
+    },
+    {
+      "username": "zoe.bell",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/zoe.bell",
+      "groups": [
+        "DataTeam",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 656,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00261"
+    },
+    {
+      "username": "mary.bruce",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/mary.bruce",
+      "groups": [
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 106,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01452"
+    },
+    {
+      "username": "elizabeth.jensen",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/elizabeth.jensen",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 351,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01059"
+    },
+    {
+      "username": "kristina.smith",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/kristina.smith",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 122,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02226"
+    },
+    {
+      "username": "ashlee.washington",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/ashlee.washington",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 59,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01267"
+    },
+    {
+      "username": "jeffrey.velasquez",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/jeffrey.velasquez",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 378,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00169"
+    },
+    {
+      "username": "thomas.anderson",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/thomas.anderson",
+      "groups": [
+        "Developers",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 476,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01283"
+    },
+    {
+      "username": "joseph.perry",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/joseph.perry",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 393,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01253"
+    },
+    {
+      "username": "ryan.khan",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/ryan.khan",
+      "groups": [
+        "Developers"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 199,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00836"
+    },
+    {
+      "username": "nicholas.hernandez",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/nicholas.hernandez",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 25,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00545"
+    },
+    {
+      "username": "elaine.nelson",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/elaine.nelson",
+      "groups": [
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 247,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01693"
+    },
+    {
+      "username": "mitchell.clark",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/mitchell.clark",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 284,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00026"
+    },
+    {
+      "username": "juan.ryan",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/juan.ryan",
+      "groups": [
+        "Admins",
+        "DataTeam"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 464,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01241"
+    },
+    {
+      "username": "scott.thomas",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::111111111111:user/scott.thomas",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 462,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02347"
+    },
+    {
+      "username": "brittany.price",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/brittany.price",
+      "groups": [
+        "DataTeam",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 23,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01190"
+    },
+    {
+      "username": "phyllis.manning",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/phyllis.manning",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 315,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00226"
+    },
+    {
+      "username": "deborah.lynch",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/deborah.lynch",
+      "groups": [
+        "Developers",
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 174,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00028"
+    },
+    {
+      "username": "dawn.moore",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/dawn.moore",
+      "groups": [
+        "ReadOnly"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 227,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E01747"
+    },
+    {
+      "username": "monique.johnson",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/monique.johnson",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 431,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E00426"
+    },
+    {
+      "username": "michael.ellis",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/michael.ellis",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 169,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02283"
+    },
+    {
+      "username": "alexa.wood",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/alexa.wood",
+      "groups": [
+        "ReadOnly",
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 226,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02005"
+    },
+    {
+      "username": "james.lopez",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/james.lopez",
+      "groups": [
+        "Admins"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 48,
+          "active": true
+        }
+      ],
+      "_true_employee_id": "E02243"
+    },
+    {
+      "username": "automation-user-000",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/automation-user-000",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 270,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-001",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/automation-user-001",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 377,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-002",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/automation-user-002",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 215,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-003",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/automation-user-003",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 319,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-004",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::222222222222:user/automation-user-004",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 495,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-005",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::333333333333:user/automation-user-005",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 105,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-006",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/automation-user-006",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 331,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-007",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/automation-user-007",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 411,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-008",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/automation-user-008",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 117,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-009",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/automation-user-009",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 403,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-010",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::333333333333:user/automation-user-010",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 77,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-011",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::111111111111:user/automation-user-011",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 597,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-012",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/automation-user-012",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 462,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-013",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/automation-user-013",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 551,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-014",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/automation-user-014",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 238,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-015",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/automation-user-015",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 274,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-016",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/automation-user-016",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 525,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-017",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::222222222222:user/automation-user-017",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 422,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-018",
+      "account": "222222222222-staging",
+      "arn": "arn:aws:iam::333333333333:user/automation-user-018",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 301,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-019",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/automation-user-019",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 434,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-020",
+      "account": "333333333333-shared-services",
+      "arn": "arn:aws:iam::222222222222:user/automation-user-020",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 306,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    },
+    {
+      "username": "automation-user-021",
+      "account": "111111111111-prod",
+      "arn": "arn:aws:iam::111111111111:user/automation-user-021",
+      "groups": [
+        "CI-CD"
+      ],
+      "access_keys": [
+        {
+          "created_days_ago": 443,
+          "active": true
+        }
+      ],
+      "_true_employee_id": null
+    }
+  ],
+  "roles": [
+    {
+      "role_name": "role-deploy-automation-000",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ],
+      "assume_role_chain": [
+        "role-deploy-automation-000",
+        "role-ci-bridge-041",
+        "role-break-glass-admin-089"
+      ]
+    },
+    {
+      "role_name": "role-significant-001",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-stuff-002",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-economic-003",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-book-004",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-we-005",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-up-006",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-contain-007",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-should-008",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-wait-009",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-if-010",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-someone-011",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-kitchen-012",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-win-013",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-attack-014",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-assume-015",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-population-016",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-enough-017",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-building-018",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-always-019",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-throw-020",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-so-021",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-baby-022",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-letter-023",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-source-024",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-house-025",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-policy-026",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-program-027",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-though-028",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-all-029",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-wind-030",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-contain-031",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-full-032",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-box-033",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-say-034",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-listen-035",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-huge-036",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-cell-037",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-public-038",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-painting-039",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-only-040",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-ci-bridge-041",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-deal-042",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-entire-043",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-military-044",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-left-045",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-respond-046",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-feeling-047",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-down-048",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-defense-049",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-site-050",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-color-051",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-leader-052",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-teach-053",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-newspaper-054",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-table-055",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-strategy-056",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-dark-057",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-before-058",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-pass-059",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-agent-060",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-professional-061",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-relate-062",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-big-063",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-Democrat-064",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-along-065",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-take-066",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-challenge-067",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-walk-068",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-accept-069",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-here-070",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-staff-071",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-involve-072",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-out-073",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-office-074",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-treatment-075",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-away-076",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-grow-077",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-crime-078",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-rest-079",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-show-080",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-whether-081",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-should-082",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "S3FullAccess"
+      ]
+    },
+    {
+      "role_name": "role-quality-083",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-news-084",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-model-085",
+      "account": "333333333333-shared-services",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-customer-086",
+      "account": "111111111111-prod",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "PowerUserAccess"
+      ]
+    },
+    {
+      "role_name": "role-there-087",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "ReadOnlyAccess"
+      ]
+    },
+    {
+      "role_name": "role-despite-088",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    },
+    {
+      "role_name": "role-break-glass-admin-089",
+      "account": "222222222222-staging",
+      "trust_policy": "internal",
+      "attached_policies": [
+        "AdministratorAccess"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: northwind
+      POSTGRES_PASSWORD: northwind
+      POSTGRES_DB: northwind
+    ports:
+      - "5432:5432"
+    volumes:
+      - northwind_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U northwind -d northwind"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  migrate:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://northwind:northwind@postgres:5432/northwind
+    command: ["bash", "scripts/migrate_and_seed.sh"]
+    restart: "no"
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    depends_on:
+      postgres:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    environment:
+      DATABASE_URL: postgresql+psycopg://northwind:northwind@postgres:5432/northwind
+      LOG_LEVEL: INFO
+      ENVIRONMENT: docker
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  console:
+    build:
+      context: .
+      dockerfile: Dockerfile.console
+    depends_on:
+      - api
+    environment:
+      DATABASE_URL: postgresql+psycopg://northwind:northwind@postgres:5432/northwind
+      NORTHWIND_API_URL: http://api:8000
+    ports:
+      - "8501:8501"
+
+volumes:
+  northwind_pg_data:
