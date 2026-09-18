@@ -97,6 +97,27 @@ exactly, and both the API health endpoint and console are reachable.
 | AWS IAM | 200 | 170 | 30 | ✅ |
 | PlantOps | 350 | 199 | 151 | ✅ |
 
+**PlantOps quarantine breakdown (151/350, ~43% -- the highest of any source, and
+deliberately so):**
+
+| Reason | Rows |
+|---|---|
+| `STALE_WORKSHEET_EXCLUDED` | 40 |
+| `PLANTOPS_AMBIGUOUS_NAME_MATCH` | 49 |
+| `PLANTOPS_NAME_MATCH_MISSING_ROLE_CONTEXT` | 62 |
+
+The larger driver isn't the stale worksheet (40 rows) -- it's the 111 rows quarantined by
+the name-match/role-context policy. PlantOps has no employee ID and no email (Appendix
+A.6), so identity resolution is name-only by construction, and roughly a third of the
+seeded PlantOps population is drawn from outside Manufacturing, where the system has no
+departmental context to corroborate an ambiguous name match. Per the task's own stated
+policy for this source ("name-only matches require unique strong name similarity plus
+contextual role evidence"), those rows are correctly refused rather than guessed. A 43%
+quarantine rate on PlantOps specifically is the expected shape of this source's data, not
+an indicator that something's wrong with correlation -- the other five sources, which
+carry an employee ID or verified email, quarantine at 5-15%, which is the more informative
+comparison.
+
 The `rows_in = rows_normalized + rows_quarantined` invariant is enforced as a hard assertion
 in `ReconciliationCounter.flush()` (`src/northwind/ingestion/helpers.py`) -- a broken
 invariant raises, it doesn't get silently reported. It's also checked as a test for every
