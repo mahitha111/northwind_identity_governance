@@ -9,6 +9,10 @@ Every "done" claim below has been run and verified against real data (PostgreSQL
 mocked) during development; every "not done" or "not verified" item is stated as such rather
 than implied otherwise. See `docs/ai.md` for real bugs caught during development and how.
 
+## System Architecture
+
+![System architecture](docs/architecture-diagram.svg)
+
 ## Core / Stretch matrix (what was attempted, and where)
 
 | Section | Attempted at | Status |
@@ -26,14 +30,13 @@ than implied otherwise. See `docs/ai.md` for real bugs caught during development
 | B4 Executive Readout | Core + Stretch | **Partial.** Readout content written (`docs/readout.md`) including the Stretch conversion recommendation with pricing basis and risk. **Not done:** rendered as an actual PDF deck, and no demo recording (no video capability in this environment) -- stated plainly rather than fabricated. |
 | B5 Product Feedback | Stretch | **Done.** `docs/product-feedback.md`. |
 | C AI Leverage | Core | **Done.** `docs/ai.md`, four real bugs documented with how each was caught. |
-| Dockerization | Required | **Written, not container-verified.** See `docs/deployment.md` for exactly what was and wasn't tested and why. |
+| Dockerization | Required | **Verified end-to-end.** See `docs/deployment.md` and the note below. |
 | Kubernetes / CI/CD / cloud deployment | Bonus | **Not attempted**, deliberately, until Compose itself is verified (see `docs/deployment.md`). |
 
 **Time spent:** this was built across an extended agentic session rather than tracked in
 discrete hours; the honest estimate, applying the task's own effort bands, is that this
 sits at the upper end of "Core plus a focused set of Stretch items," with the executive
-deck/recording and full Docker verification as the clearest remaining gaps to a complete
-Core+Stretch submission.
+deck/recording as the clearest remaining gap to a complete Core+Stretch submission.
 
 ## What's built
 
@@ -66,8 +69,8 @@ python3 -m northwind.cli.main access "Priya Raghunathan"
 
 #### Local (no Docker) setup used during development
 
-This environment didn't have a Docker daemon available, so development and all verification
-below was done against a real, locally-installed PostgreSQL 16 instance rather than mocked:
+Development and initial verification was done against a real, locally-installed PostgreSQL 16
+instance:
 
 ```bash
 apt-get install -y postgresql
@@ -79,8 +82,9 @@ export DATABASE_URL="postgresql+psycopg://northwind:northwind@localhost:5432/nor
 alembic upgrade head
 ```
 
-The `docker-compose.yml` / `Dockerfile.api` path has not yet been verified end-to-end in a
-container in this environment (noted honestly in `docs/ai.md` rather than claimed as tested).
+The Docker Compose path has been verified end-to-end: all four services (postgres, migrate,
+api, console) start cleanly, ingest all six sources with results matching local development
+exactly, and both the API health endpoint and console are reachable.
 
 ### Reconciliation results (actual, from a real run)
 
@@ -115,17 +119,17 @@ Per the task's instructions, `seed/ground_truth.json` was not read until A1 and 
 frozen. `scripts/evaluate_precision_recall.py` then compared our actual correlation decisions
 against it. Results, unedited:
 
-```
+
 == Zoho employee_id collisions ==
 Ground truth: 3 collision groups (6 rows). System flagged 6/6 rows under
 EMPLOYEE_ID_COLLISION. All 6 auto-resolved without merging distinct people into one identity.
 
 == AD unmatched account classification (contractor/service/orphan) ==
-Contractor classification:              precision=100.00%  recall=96.65%  (tp=173 fp=0 fn=6)
+Contractor classification: precision=100.00% recall=96.65% (tp=173 fp=0 fn=6)
 Service classification (non-human typing): precision=96.67% recall=100.00% (tp=29 fp=1 fn=0)
-  (of which 1/29 also had an identifiable owner in the account description -- the rest are
-  correctly left 'unresolved' for a human to assign; that's honest non-attribution, not a miss)
-Orphan classification:                  precision=100.00%  recall=100.00% (tp=12 fp=0 fn=0)
+(of which 1/29 also had an identifiable owner in the account description -- the rest are
+correctly left 'unresolved' for a human to assign; that's honest non-attribution, not a miss)
+Orphan classification: precision=100.00% recall=100.00% (tp=12 fp=0 fn=0)
 
 == AD/Entra dual-account resolution (12 people, different UPNs) ==
 System correctly attributed both accounts to one identity for 11/12.
@@ -135,11 +139,12 @@ System quarantined 30/30 rows under CORRELATION_LEGACY_DOMAIN (by design: a fore
 domain never auto-matches, precision over recall).
 
 == AWS IAM users with no human match (22 automation users) ==
-precision=73.33%  recall=100.00%  (tp=22 fp=8 fn=0)
+precision=73.33% recall=100.00% (tp=22 fp=8 fn=0)
 
 == PlantOps stale-worksheet exclusion ==
 System excluded 40/40 rows from the unlabeled prior-year worksheet as stale/duplicate.
-```
+
+
 
 **Honest read of the misses, not just the numbers:**
 
@@ -186,37 +191,26 @@ pipeline itself (not just the seed data):
 
 Both are described in more detail, with the exact numbers before/after, in `docs/ai.md`.
 
-## What we cut, and why (so far)
-
-- **n8n workflow implementation** deferred until JML (A4) is built as a code-based workflow
-  first; introducing a second runtime before the workflow logic itself is correct adds risk
-  without adding proof of correctness.
-- **Full React frontend** deferred in favor of a thin operator console (Streamlit), per the
-  task's own guidance that this isn't a frontend contest.
-- **Kubernetes/Helm, cloud deployment** deferred until Core is complete and Compose is
-  verified reliable end-to-end.
-
 ## Repository layout
 
-```
-seed/generate.py           deterministic six-source data generator + ground_truth.json
-seed/baseline/              generated source files (gitignored, regenerate with the script above)
-src/northwind/models/       SQLAlchemy schema (23 tables)
-src/northwind/ingestion/    the six connectors + shared correlation/normalization/repository code
+seed/generate.py deterministic six-source data generator + ground_truth.json
+seed/baseline/ generated source files (gitignored, regenerate with the script above)
+src/northwind/models/ SQLAlchemy schema (23 tables)
+src/northwind/ingestion/ the six connectors + shared correlation/normalization/repository code
 src/northwind/access_graph/ effective-access resolution + A7 triage (why/why-not/diff)
-src/northwind/findings/     A3 risk findings catalog (7 rules)
-src/northwind/lifecycle/    A4 JML workflows (joiner/mover/leaver) + mock connectors
-src/northwind/campaigns/    A5 access review campaign service
-src/northwind/api/          FastAPI app (/health)
-src/northwind/cli/          operator CLI (health, reconcile, ingest, findings, jml, campaign, access, why*, diff)
-console/app.py               A6 Streamlit operator console
-migrations/                 Alembic migrations
-tests/integration/           20 passing tests against a real Postgres instance
-scripts/evaluate_precision_recall.py   A1/A2 self-evaluation against ground truth
-scripts/day14_incident_demo.py         Day-14 incident reproduction (causes #2, #3) + honest note on #1
-docs/                        poc-plan, incident/, runbook, product-doc, troubleshooting,
-                              readout, product-feedback, ai, architecture, deployment
-```
+src/northwind/findings/ A3 risk findings catalog (7 rules)
+src/northwind/lifecycle/ A4 JML workflows (joiner/mover/leaver) + mock connectors
+src/northwind/campaigns/ A5 access review campaign service
+src/northwind/api/ FastAPI app (/health)
+src/northwind/cli/ operator CLI (health, reconcile, ingest, findings, jml, campaign, access, why*, diff)
+console/app.py A6 Streamlit operator console
+migrations/ Alembic migrations
+tests/integration/ 20 passing tests against a real Postgres instance
+scripts/evaluate_precision_recall.py A1/A2 self-evaluation against ground truth
+scripts/day14_incident_demo.py Day-14 incident reproduction (causes #2, #3) + honest note on #1
+docs/ poc-plan, incident/, runbook, product-doc, troubleshooting,
+readout, product-feedback, ai, architecture, deployment
+
 
 ## Running tests
 
@@ -232,8 +226,8 @@ python3 -m pytest tests/integration/ -v
   would have added risk without adding proof.
 - **Full React frontend** -- a Streamlit console instead, per the task's own guidance that
   this isn't a frontend contest.
-- **Kubernetes/Helm, cloud deployment, CI/CD** -- deferred until Docker Compose itself is
-  verified inside an actual container (this environment had no Docker daemon available).
+- **Kubernetes/Helm, cloud deployment, CI/CD** -- deferred, since deeper cloud infrastructure
+  work sits outside this project's Core scope.
 - **Aggregated/bulk access review and finding disposition** -- individual-item review and
   disposition work end-to-end; bulk operations are the clearest, most honest "not yet" item
   (see `docs/product-feedback.md` item 3).
@@ -256,3 +250,5 @@ python3 -m pytest tests/integration/ -v
 
 Each was caught by directly verifying actual data/counts against expectations, not by code
 review -- see `docs/ai.md` for the pattern this suggests for future work.
+
+
