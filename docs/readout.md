@@ -43,7 +43,7 @@ when it was revoked, and proof the revocation executed.
 
 Something broke on Day 14. Three unrelated issues (a spreadsheet formatting quirk, a code bug
 in our leaver logic, and a timing gap in campaign scoping) surfaced together and looked to
-Mahitha's team like "the product is broken." We found and fixed all three within the day,
+Priya's team like "the product is broken." We found and fixed all three within the day,
 verified the fixes against your actual data, and added regression tests and prevention
 controls so they can't recur silently. **Why we're showing you this instead of hiding it:**
 you're evaluating whether to trust us with your audit evidence for years, not whether we're
