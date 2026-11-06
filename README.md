@@ -273,3 +273,4 @@ Each was caught by directly verifying actual data/counts against expectations, n
 review -- see `docs/ai.md` for the pattern this suggests for future work.
 
 
+# Contributor update
